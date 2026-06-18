@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala 7 Payment Gateway</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav id="navbar">
+                <h1><a href="#">Thala<span>7.</span></a></h1>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Brands</a></li>
+                        <li><a href="#">More</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="search">
+                    <button>CartView</button>
+                    <div class="image">
+                        <img src="images/new cropped.jpg" alt="User1">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <p class="che">checkout</p>
+        <div class="gateway">
+            <div class="contact">
+                <h5>Contact Details</h5>
+                <label>Email:</label><br>
+                <input type="email" placeholder="Your Email" class="sea">
+                <div class="payment">
+                    <h5>Payment</h5>
+                    <div class="paycurr">
+                        <button><i class="fa-regular fa-credit-card"></i>card</button>
+                        <button><i class="fa-solid fa-bitcoin-sign"></i>Crypto</button>
+                        <button><i class="fa-solid fa-building-columns"></i>Bank</button>
+                        <button>...</button>
+                    </div>
+                    <label>Card Number</label><br>
+                    <input type="number" placeholder="Input Card Number" class="card">
+                    <div class="expiry">
+                        <div class="exp">
+                            <label>Expiry</label><br>
+                            <input type="number" placeholder="MM/YY" class="expe">
+                        </div>
+                        <div class="cvc">
+                            <label>CVC</label><br>
+                            <input type="number" placeholder="..." class="expe">
+                        </div>
+                    </div>
+                    <div class="country">
+                        <div class="exp">
+                            <label>Country</label><br>
+                            <select class="expe">
+                                <option selected disabled>...</option>
+                                <option>India</option>
+                            </select>
+                        </div>
+                        <div class="cvc">
+                            <label>Zip</label><br>
+                            <input type="number" class="expe" placeholder="PIN Code">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <h5>Order Sumary</h5>
+                <div class="sum">
+                    <label>Enter Coupon Code</label>
+                    <div class="apply">
+                        <input type="search" placeholder="Coupon Code">
+                        <button>Apply Coupon</button>
+                    </div>
+                    <div class="total">
+                        <table class="itemsfinal">
+                            <tr>
+                                <td>Subtotal</td>
+                                <td class="amount"><i class="fa-solid fa-indian-rupee-sign"></i>4,700</td>
+                            </tr>
+                            <tr>
+                                <td>Taxes(if applicable)</td>
+                                <td class="amount"><i class="fa-solid fa-indian-rupee-sign"></i>199</td>
+                            </tr>
+                            <tr>
+                                <td>Discount</td>
+                                <td class="amount"><i class="fa-solid fa-indian-rupee-sign"></i>0</td>
+                            </tr>
+                           
+                            <tr>
+                                <th>Total</th>
+                                <th class="amount"><i class="fa-solid fa-indian-rupee-sign"></i>4,900</th>
+                            </tr>
+                        </table>
+                        
+                    </div>
+                    <button class="pay">Pay Now &nbsp;<i class="fa-solid fa-indian-rupee-sign">&nbsp;4,900</i></button>
+                    <div class="secure">
+                        <img src="images/secure.jfif" alt="sec1">
+                        <img src="images/razor.png" alt="sec2">
+                        <img src="images/secure2.jfif" alt="sec3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
