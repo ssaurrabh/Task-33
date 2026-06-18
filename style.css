@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    padding: 20px 30px;
+    background: linear-gradient(rgba(0,0,0,0.1)), url(images/bgimage.jpg) center/cover;
+    height: 38rem;
+}
+
+header{
+    position: sticky;
+    top: 1px;
+    z-index: 10;
+}
+.image{
+    font-size: 1.5rem;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    outline: 2px solid grey;
+    background-color: rgba(201, 163, 150, 0.2);
+    
+}
+
+#navbar h1{
+    font-size: 2rem;
+}
+
+h1 span{
+    color: darkblue;
+}
+
+h1 a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.menu ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu ul li:hover{
+    background-color: rgba(189, 125, 52, 0.5);
+    border-radius: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: brown;
+    padding:10px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search input{
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+.search button{
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    transition: all 0.8s ease-in-out;
+}
+
+.search button:hover{
+    background-color: rgba(255, 69, 0, 0.5);
+  
+}
+
+.image img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.main{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding-left: 3rem;
+}
+
+.main-shoe img{
+   width: 40vw;
+   border-radius: 30px;
+}
+
+.main h2{
+    font-size: 2rem;
+    
+}
+
+.heading{
+    width: 50%;
+}
+
+.heading h2{
+    color: darkblue;
+    font-size: 3rem;
+}
+
+.heading h2 span{
+    color: orangered;
+}
+
+.heading button{
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 1em;
+    margin-top: 1em;
+    transition: all 0.6s ease-in-out;
+   
+}
+
+.heading button:hover{
+   background-color: rgba(189, 125, 52, 0.5);
+    transform: scale(1.2) rotate(-10deg);
+}
+
+.footer{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    color: white;
+}
+
+.footer h4{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec i{
+    font-size: 2rem;
+}
+
+.main-box{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    gap: 10rem;
+
+}
+
+.img img{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.img img:hover{
+    box-shadow: 0px 20px 30px white;
+}
+
+.content .head{
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: darkblue;
+}
+
+.content .head i{
+    font-size: 2rem;
+
+}
+
+.content p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+
+.buttons button{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons .bg{
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+
+.spec .green{
+    color: darkgreen;
+}
+
+
+.sideways{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+
+.foot{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.foot img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.foot img:hover{
+    box-shadow: 0px 10px 40px white;
+    transform: translateY(-10px);
+}
+
+.shophead{
+    font-size: 2rem;
+    margin: 50px;
+}
+
+.maincont{
+    display: flex;
+    gap: 10rem;
+    margin: 30px 0;
+    /* justify-content: space-around; */
+}
+
+.itemstable th{
+    width: 10rem;
+    color: darkblue;
+}
+
+.itemstable td{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(53, 47, 47);
+}
+
+td button{
+    background: transparent;
+    border: none;
+    transition: all 0.5s ease-in;
+    padding: 5px;
+}
+
+td button:hover{
+    background-color: white;
+}
+
+
+.coupon p{
+    color: darkblue;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+.apply{
+    margin-bottom: 20px;
+}
+.apply input{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+.apply button{
+    padding: 8px;
+    margin-left: 20px;
+    border: none;
+    background: rgb(69, 90, 156);
+    border-radius: 10px;
+}
+
+.itemsfinal{
+    th{
+        color: darkblue;
+        padding: 10px 0;
+        text-align: left;
+        
+        
+    }
+    td{
+        /* padding-left: 40px; */
+        width: 10rem;
+        text-align: left;
+    }
+}
+
+.pay{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-size: 1rem;
+
+}
+
+.pay:hover{
+    transform: translateY(-5px);
+}
+
+footer a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.secure{
+    height: 35px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+.secure img{
+    border-radius: 20px;
+}
+
+.gateway{
+    /* margin-top: 5rem; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.contact{
+    margin-top: 20px;
+}
+
+.che{
+    padding: 0px 10rem;
+    margin-top: 50px;
+    font-size: 1.1rem;
+}
+
+.contact h5{
+    font-size: 1.3rem;
+    margin: 10px 0px; 
+}
+
+.sea{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    width: 100%;
+}
+
+.paycurr button{
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255,0.5);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.expiry{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.country{
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.expe{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+
+.summary h5{
+    
+    font-size: 1.3rem;
+    margin: 10px 0px; 
+}
+
+.apply input{
+    margin: 15px 0px;
+    width: 50%;
+}
+
+.itemsfinal{
+    width: 100%;
+    .amount{
+        text-align: right;
+        padding: 5px 0px;
+    }
+    td{
+        width: 70%;
+        
+    }
+}
